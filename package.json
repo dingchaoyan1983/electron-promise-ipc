@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "bluebird": "^3.4.7",
-    "is-electron-renderer": "^2.0.1",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
