@@ -1,6 +1,4 @@
-import isRenderer from 'is-electron-renderer';
-
-if (isRenderer) {
+if (process.type === 'renderer') {
   module.exports = require('./renderer');
 } else {
   module.exports = require('./mainProcess');
